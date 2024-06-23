@@ -17,7 +17,7 @@
     "@testing-library/user-event": "^14.5.2",
     "eslint-plugin-react-hooks": "^4.6.2",
     "nth-check": "^2.1.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^3.4.4",
     "semver": "^7.6.2",
     "serve": "^14.2.3"
   },
