@@ -1,0 +1,31 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+
+  default:
+    cmds:
+      - task --list-all
+    silent: true
+
+  build:
+    cmds:
+      - npm run build
+    silent: true
+
+  test:
+    cmds:
+      - npm run test
+    silent: true
+
+  serve:
+    cmds:
+      - npx serve --listen tcp://:3000 --single build
+    silent: true
+
+  add-bootstrap-deps:
+    cmds:
+      - npm install --save bootstrap
+      - npm install --save react-bootstrap react-scripts
+    silent: true
