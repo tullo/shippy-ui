@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.1/.schema/devbox.schema.json",
+  "env": {
+    "DEVBOX_COREPACK_ENABLED": "true"
+  },
+  "packages": [
+    "go-task@3.41.0",
+    "git@2.48.1",
+    "nodejs@23.10.0",
+    "mkcert@1.4.4"
+  ],
+  "shell": {
+    "init_hook": [
+      "git config alias.s 'status -s'",
+      "git config alias.last 'log -1 HEAD'",
+      "git config alias.lg 'log --oneline --decorate --all --graph'",
+      "alias g='git'",
+      "alias t='task'",
+      "alias tl='task --list-all'",
+      "export PATH=\"/nix/store/m7imcmwi4hschl257dzc33gxciqlf4bm-nodejs-23.10.0/bin:$PATH\""
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
