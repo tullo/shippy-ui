@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from "uuid";
 import { createConsignment, getConsignments } from "../services/ConsignmentService";
 import Consignments from "./Consignments";
 import ContainerForm from "./ContainerForm";

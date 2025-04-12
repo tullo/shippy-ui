@@ -1,6 +1,6 @@
+import './App.css';
 import React from "react";
 import Container from "react-bootstrap/Container";
-import "./App.css";
 import CreateConsignment from "./components/CreateConsignment";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
