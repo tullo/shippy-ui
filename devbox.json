@@ -6,7 +6,7 @@
   "packages": [
     "go-task@3.43.3",
     "git@2.49.0",
-    "nodejs@24.0.1",
+    "nodejs@24.0.2",
     "mkcert@1.4.4"
   ],
   "shell": {
