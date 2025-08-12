@@ -4,7 +4,7 @@
     "DEVBOX_COREPACK_ENABLED": "true"
   },
   "packages": [
-    "go-task@3.44.0",
+    "go-task@3.44.1",
     "git@2.50.0",
     "nodejs@24.5.0",
     "mkcert@1.4.4"
